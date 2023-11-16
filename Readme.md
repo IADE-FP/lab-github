@@ -65,12 +65,23 @@ Exemplo de input:
 4 4
 .#@.
 @.@.
+....
+#.@.
 ```
 
 Exemplo de output:
 
 ```text
-3
+4
 ```
 
 Escreva a solução num ficheiro chamado `trees.c`.
+
+## Desenvolvimento e submissão
+
+O desenvolvimento deve ser feito em C11, e a compilação efetuada com as instruções:
+
+```bash
+make calc
+make trees
+```
