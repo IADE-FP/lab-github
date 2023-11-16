@@ -79,9 +79,19 @@ Escreva a solução num ficheiro chamado `trees.c`.
 
 ## Desenvolvimento e submissão
 
+Após aceitar o desafio, o GitHub Classroom irá criar um repositório privado para si. Repare no url que consta no browser.
+
+Para obter o enunciado, deve fazer `git clone URL` (substitua URL pelo url que consta no browser).
+
+Após criar um ficheiro, deve fazer `git add FICHEIRO` para o adicionar ao repositório. Pode adicionar vários ficheiros de uma vez. Para adicionar todos os ficheiros, pode fazer `git add .`.
+
+Quando estiver satisfeito com as alterações, deve fazer `git commit -m "MENSAGEM"` para as registar no repositório. A mensagem deve ser significativa, para que seja fácil perceber o que foi alterado.
+
 O desenvolvimento deve ser feito em C11, e a compilação efetuada com as instruções:
 
 ```bash
 make calc
 make trees
 ```
+
+Assim que terminar as duas tarefas, deve fazer `git push origin main` para enviar as alterações para o repositório. O GitHub Classroom irá compilar e testar o seu código.
